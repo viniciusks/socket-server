@@ -1,7 +1,7 @@
-FROM node:latest
+FROM node:8.16.0-alpine
 MAINTAINER Vinicius Kremer Santos <vinicius@ootz.com.br>
 
-EXPOSE 3010
+EXPOSE 3000
 
 ADD . /
 
